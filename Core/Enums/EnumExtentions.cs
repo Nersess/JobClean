@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Text;
+
+namespace Core.Enums
+{
+    public static class EnumExtentions
+    {
+        /// <summary>
+        /// Gets enum value description
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="enumValue"></param>
+        /// <returns></returns>
+        public static string GetDescription<T>(this T enumValue) where T : struct
+        {
+            if (!typeof(T).IsEnum)
+            {
+                return null;
+            }
+
+            var description = enumValue.ToString();
+            var fieldInfo = enumValue.GetType().GetField(enumValue.ToString());
+
+            if (fieldInfo != null)
+            {
+                var attrs = fieldInfo.GetCustomAttributes(typeof(DescriptionAttribute), true);
+                if (attrs != null && attrs.Length > 0)
+                {
+                    description = ((DescriptionAttribute)attrs[0]).Description;
+                }
+            }
+
+            return description;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+C:\Users\nerse\source\repos\JobsClean\Models\bin\Debug\netcoreapp3.1\Models.deps.json
+C:\Users\nerse\source\repos\JobsClean\Models\bin\Debug\netcoreapp3.1\Models.dll
+C:\Users\nerse\source\repos\JobsClean\Models\bin\Debug\netcoreapp3.1\Models.pdb
+C:\Users\nerse\source\repos\JobsClean\Models\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\nerse\source\repos\JobsClean\Models\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\nerse\source\repos\JobsClean\Models\obj\Debug\netcoreapp3.1\Models.csprojAssemblyReference.cache
+C:\Users\nerse\source\repos\JobsClean\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfoInputs.cache
+C:\Users\nerse\source\repos\JobsClean\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfo.cs
+C:\Users\nerse\source\repos\JobsClean\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
+C:\Users\nerse\source\repos\JobsClean\Models\obj\Debug\netcoreapp3.1\Models.csproj.CopyComplete
+C:\Users\nerse\source\repos\JobsClean\Models\obj\Debug\netcoreapp3.1\Models.dll
+C:\Users\nerse\source\repos\JobsClean\Models\obj\Debug\netcoreapp3.1\Models.pdb
